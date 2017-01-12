@@ -1,0 +1,707 @@
+@CHARSET "UTF-8";
+table.dataTable tr.odd td.sorting_1
+{
+	background-color: #F9F9F9 !important;
+}
+
+table.dataTable tr.even td.sorting_1
+{
+	background-color: #FFFFFF !important ;
+}
+
+body
+{
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.header-container .header.navbar-fixed-top
+{
+	height: 47px;
+}
+
+.header-container .menu.navbar-fixed-top
+{
+	top: 47px;
+}
+
+.header.row-fluid.navbar-fixed-top {
+    background-color: #000;
+    color: #FFFFFF;
+}
+
+.header
+{
+	padding-left: 60px;
+}
+
+.menu ul.nav
+{
+	margin-left: 8px;
+}
+
+.menu ul.nav
+{
+	padding-left: 27px;
+}
+
+.container-fluid{
+	padding: 0 60px 0 60px;
+}
+
+.row-fluid.navbar-fixed-bottom.footer {
+    background-color: #000;
+}
+
+.remerber-me
+{
+	display: block;
+}
+
+.remerber-me label
+{
+	display: inline;
+}
+
+.edit-element
+{
+	margin-left: 4px;
+}
+
+.show_admin_table
+{
+	border-spacing: 13px;
+	border-collapse: separate;
+}
+
+.show_admin_table th
+{
+	text-align: left;
+}
+
+.show_botton li
+{
+	margin-bottom: 8px;
+}
+
+table.dataTable
+{
+	margin-bottom: 30px;
+}
+
+div.form-inline div
+{
+	display: inline;
+}
+
+.hero-unit form div {
+    margin-top: 20px;
+}
+
+ul.record_actions li
+{
+	margin-bottom: 10px;
+}
+
+.title
+{
+  font-family: DINProLight !important;
+  font-size: 21px !important;
+  line-height: 40px;
+  letter-spacing: 2px !important;
+  font-weight: bold;
+}
+
+.uppercase
+{
+	text-transform: uppercase;
+}
+
+select[multiple] {
+    height: 150px !important;
+}
+
+.country-flag
+{
+        margin-bottom: 2px;
+}
+.country-title
+{
+	left: 10px;
+	bottom: 16px;
+	position: relative;
+}
+.clear{
+	clear:both;
+}
+
+.navbar-inner{
+	border: none;
+	background-color: white !important;
+	background-image: none;
+	box-shadow: none;
+}
+.navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar .nav > li{
+	margin: 10px 25px 10px;
+}
+
+.navbar .nav > li > a{
+	font-weight: bold;
+	color: #1b1b1b;
+	padding: 0px;
+	letter-spacing: 1px;
+    width: 101%
+}
+
+.navbar .nav > .active > a, .navbar .nav > .active > a:hover, .navbar .nav > .active > a:focus{
+	color: blue;
+	background-color: white;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.navbar .nav > .active{
+	border-bottom-style: solid;
+	border-bottom-color: blue;
+}
+
+@font-face
+{
+font-family: Capsuula;
+src: url('/bundles/Mlat/css/Font/Capsuula.ttf'),
+     url('Font/Capsuula.eot'); /* IE9 */
+}
+
+@font-face
+{
+font-family: RopaSans;
+src: url('/bundles/Mlat/css/Font/RopaSans-Regular.otf'),
+     url('Font/Capsuula.eot'); /* IE9 */
+}
+
+
+h1.title{
+	color:#3535ff;
+	font-size: 24px;
+	font-family: Capsuula;
+	margin: 0px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+h1.title strong{
+	font-weight: normal;
+}
+
+.title-header{
+	border-bottom: solid #3535ff 2px;
+	margin-bottom: 50px;
+}
+
+.sub-title{
+	font-family: serif;
+	font-size: 20px;
+	color: black;
+	margin-bottom: 12px;
+}
+.table.dataTable thead th{
+	text-transform: uppercase;
+	padding-left: 0px;
+	padding-bottom: 9px;
+	font-size: 11px;
+}
+
+.table.dataTable td{
+	padding-left: 0px;
+}
+
+tbody td a strong, tbody td {
+    font-size: 14px !important;
+    font-family: DINProLight !important;
+}
+
+table#mlat_index_id{
+    margin-bottom: 10px;
+}
+
+table#mlat_index_id  td.title{
+	padding: 22px 0;
+	background-color: white !important;
+	text-transform: uppercase;
+}
+
+table#mlat_index_id  a.mlat-link{
+    word-break: break-word;
+}
+
+#mlat_index_id.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th{
+	background-color: #FFF;
+}
+
+table#mlat_index_id tr.even{
+	background-color: #F1F1F1;
+}
+
+table strong{
+	color:black;
+	font-weight: normal;
+}
+
+table a strong{
+	font-family: serif;
+}
+
+.table th, .table td{
+	border-top: none;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+#selectwrap {
+    overflow: hidden;
+    display: block;
+}
+
+
+#selectwrap select {
+    width: 320px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.search-btn{
+    margin: 20px 10px 0 0 ;
+	padding: 4px 7px;
+	background: url(/bundles/Mlat/images/submit-button.gif) no-repeat right #ddd;
+    width: 45px;
+	height: 31px;
+	border: 0px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+
+.search label{
+	color: black;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.search label[for="form1_country2"]{
+	width: auto;
+	padding: 0 20px;
+}
+
+.profile{
+	margin-bottom: 15px;
+}
+
+.description{
+	margin-top: -3px;
+}
+
+.map-header{
+	margin-bottom: 50px;
+}
+
+.logout{
+	text-align: right;
+	padding-right: 55px;
+	padding-top: 9px;
+    background-color: #fff;
+    margin-left: 0px !important;
+    padding-bottom: 13px;
+}
+.alert-country{
+	top: 10px;
+	display: block;
+	position: relative;
+    vertical-align: sub;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+a.header-title {
+    color: #FFF;
+    font-weight: normal !important;
+    font-family: DINProLight !important;
+}
+.policy-p{
+    margin-bottom: 20px;
+}
+.p-link{
+    color: #333333;
+    text-decoration: none;
+    font-size: 13px;
+}
+#country_id{
+    margin-bottom: 16px;
+}
+#simplemodal-container h3{
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+    color: #000000 !important;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+#simplemodal-container .simplemodal-data p{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #333333;
+}
+
+#simplemodal-container a{
+    color: #333333 !important;
+}
+
+#simplemodal-container a.modalCloseImg{
+    right: 5px !important;
+    top: 9px !important;
+    background-size:15px 15px !important;
+    width: 24px !important;
+}
+
+#simplemodal-container{
+    background-color: rgba(255,255,255,0.4) !important;
+    border: none !important;
+}
+
+#simplemodal-container .simplemodal-data{
+    padding: 2px !important;
+}
+
+/* Website Title Fix */
+#body > div > div.row-fluid.header-container > div > div.header.row-fluid.navbar-fixed-top > div.span9 > h4
+{
+  line-height: 47px;
+  margin: 0 0 0 0;
+  font-weight: normal;
+  font-size: 18px !important;
+  letter-spacing: 1px;
+}
+
+#body > div > div.row-fluid.header-container > div > div.header.row-fluid.navbar-fixed-top
+{
+  min-width: 970px;
+}
+
+#body > div > div.row-fluid.header-container > div > div.header.row-fluid.navbar-fixed-top > div.span9 > h4 > a
+{
+  line-height: 47px;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+#body > div > div.row-fluid.header-container > div > div.header.row-fluid.navbar-fixed-top > div.span9 > h4 > a:hover
+{
+  text-decoration: none;
+  color: lightblue;
+}
+
+/* Website Padding Fix */
+@media (min-width: 768px) and (max-width: 979px)
+{
+	/* SWEET GLORIOUS NOTHING */
+}
+
+
+/* Navigation Bar Styles */
+#body > div.container-fluid > div.row-fluid.header-container > div > div.menu.row-fluid.navbar-fixed-top > div.span10
+{
+  width: 100%;
+  min-width: 1000px;
+}
+
+#body > div > div.row-fluid.header-container > div > div.menu.row-fluid.navbar-fixed-top > div.span10 > div > div
+{
+	min-width: 1000px;
+}
+
+.nav li
+{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-size: 14px !important;
+  -webkit-transition: border 0.3s, color 0.3s;
+  transition: border 0.3s, color 0.3s;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+}
+
+.nav li:hover
+{
+  border-bottom-style: solid;
+  border-bottom-color: blue;
+  color: blue !important;
+}
+
+.nav li a
+{
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+
+.nav li a:hover
+{
+  color: blue !important;
+}
+
+/* logout bar */
+#body > div > div.row-fluid.header-container > div > div.menu.row-fluid.navbar-fixed-top > div.span2.logout
+{
+  display: none;
+}
+
+/* GLOBAL: Page font styles*/
+@font-face {
+    font-family: Capsuula;
+    src: url(../bundles/Mlat/css/Font/Capsuula.ttf);
+}
+
+@font-face {
+  font-family: 'DINProLight';
+  src: url('/bundles/Mlat/css/Font/DINProLight/DINProLight.eot');
+  src: local('DINProLight'), url('/bundles/Mlat/css/Font/DINProLight/DINProLight.woff') format('woff'), url('/bundles/Mlat/css/Font/DINProLight/DINProLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MontserratBold';
+  src: url('/bundles/Mlat/css/Font/Montserrat/Montserrat-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'MontserratRegular';
+  src: url('/bundles/Mlat/css/Font/Montserrat/Montserrat-Regular.ttf');
+  font-weight: normals;
+}
+
+p
+{
+  font-size: 17px !important;
+  margin: 0 0 20px 0;
+  font-family: DINProLight !important;
+}
+
+li
+{
+  font-size: 16px !important;
+  font-family: DINProLight !important;
+}
+
+.title-header
+{
+  margin-bottom: 20px !important;
+}
+
+
+/* PAGE: MLAT Index Styling */
+
+#mlat_index_id_length > label > select
+{
+  margin-top: 10px;
+}
+
+#mlat_index_id_filter > label > input[type="text"]
+{
+  margin-top: 10px;
+}
+
+#mlat_index_id_wrapper
+{
+  min-width: 850px;
+}
+
+
+/* PAGE: Advanced Search Form Styling */
+
+/* FORM: See MLATs Between A & B */
+.search form label {
+    display: block;
+    width: 340px;
+}
+
+#form1_country1
+{
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+#form1 > label:nth-child(3)
+{
+  display: block;
+}
+
+#form1_country2
+{
+  display: block;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+
+/* FORM: See Profile for [country] */
+#form > label
+{
+  display: block;
+}
+
+#form_country
+{
+  /*display: block;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+p {
+  font-size: 16px !important;
+  margin: 0 0 20px 0;
+  font-family: DINProLight !important;
+}
+
+
+svg {
+ border:1px solid #EFEFEF;
+ background-color: #FAFAFA;
+}
+
+#arcs path{
+ fill: none;
+}
+
+#countries path {
+ stroke: #FAFAFA;
+ stroke-width: 0.2;
+}
+
+body
+{
+	background:#fff;
+	color:#333;
+	/*font: 12px/22px verdana, arial, sans-serif; */
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height:100%;
+	margin:0 auto;
+	width:100%;
+	min-width: 980px !important;
+}
+
+h1
+{
+	color:#3a6d8c;
+	font-size:34px;
+	line-height:40px;
+	margin:0;
+}
+
+h3
+{
+	color:#3a6d8c;
+	font-size:22px;
+	line-height:26px;
+	font-weight:normal;
+	margin:0 0 8px 0;
+}
+
+img
+{
+	border:0;
+}
+
+#logo
+{
+	margin-bottom:20px;
+	width:300px;
+}
+
+#logo h1
+{
+	color:#666;
+	letter-spacing:-1px;
+	font-weight:normal;
+}
+
+#logo h1 span
+{
+	color:#444;
+	font-weight:bold;
+}
+
+#logo .title
+{
+	color:#999;
+	font-size:12px;
+}
+
+#container
+{
+	margin:0 auto;
+	padding-top:20px;
+	width:800px;
+}
+
+#content
+{
+	border-bottom:1px dotted #999;
+	border-top:1px dotted #999;
+	padding:20px 0;
+}
+
+#footer
+{
+	clear:left;
+	color:#888;
+	margin:20px 0;
+}
+
+#footer a:link, #footer a:visited
+{
+	color:#888;
+	text-decoration:none;
+}
+
+#footer a:hover
+{
+	color:#333;
+	text-decoration:underline;
+}
+
+/* Navigation Bar Styles */
+#body > div.container-fluid > div.row-fluid.header-container > div > div.menu.row-fluid.navbar-fixed-top > div.span10
+{
+	width: 100%;
+	min-width: 850px;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 18px;
+}
+h1 {
+  font-size: 38.5px;
+}
+h2 {
+  font-size: 31.5px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: bold !important;
+  color: #000000 !important;
+  letter-spacing: 1px;
+}
+h4 {
+  font-size: 16px;
+  font-weight: bold !important;
+  color: #000000 !important;
+}
