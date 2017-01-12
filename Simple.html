@@ -68,39 +68,43 @@
 
 <div class="row-fluid title-header">
     <div class="span12">
-      <h1 class="title">Upload Information Request</h1>
+      <h1 class="title">Information Transfer Request Between: US and Canada</h1>
     </div>
   </div>
-  <div class="content control-group search row-fluid ">
-    <div class="span6">
-            <form method="post" action="/search" class="form-inline" id="search_mlat_form"><div id="form1"     class="form-inline" id="search_mlat_form"><label for="form1_country1" class="required">Your Country:</label><div id="selectwrap"><select id="form1_country1" name="form1[country1]" required="required"    class="input-xlarge"><option value="">[Country #1]</option><option value="canada">Canada</option><option value="france">France</option><option value="germany">Germany</option><option value="italy">Italy</option><option value="japan">Japan</option><option value="russia">Russia</option><option value="uk">United Kingdom</option><option value="us">United States</option></select></div>
 
-            <p>    </p>
-            
-            </select></div><label for="form1_country3" class="required">Country Requesting Information From:</label><div id="selectwrap"><select id="form1_country3" name="form1[country3]" required="required"    class="input-xlarge"><option value="">[Country #2]</option><option value="canada">Canada</option><option value="france">France</option><option value="germany">Germany</option><option value="italy">Italy</option><option value="japan">Japan</option><option value="russia">Russia</option><option value="uk">United Kingdom</option><option value="us">United States</option></select></div>
-<!--
-            </select></div><div><button type="submit" id="form1_GO" name="form1[GO]" class="search-btn">GO</button></div> -->
 
-           
-            <p>    </p>
 
-           <div> <input id="btntest" type="button" value="Go" 
+
+<div style="display: inline-block">
+<form>
+  <b>Mechanism Used to Seek Assistance:<br>
+  <input type="text" name="mechanism" style="width:400px"><br>
+  Authority Conducting the Investigation/Prosecution:<br>
+  <input type="text" name="autority" style="width:400px"><br>
+  Case Summary:<br>
+  <input type="text" name="summary" style="height:200px;width:400px"><br>
+  Applicable Legal Provisions:<br>
+  <input type="text" name="legal" style="width:400px"><br>
+  Assistance Being Sought:<br>
+  <input type="text" name="assistance" style="width:400px"><br>
+  Specific Confidentiality Requirements:<br>
+  <input type="text" name="confidentiality" style="width:400px"><br>
+  Urgency in Execution of Request:<br>
+  <input type="text" name="urgency" style="width:400px"><br>
+  List of Relevant Contact Points in Your Country:<br>
+  <input type="text" name="contacts" style="width:400px"><br>
+  Details of Media Attention Case Received:</b><br>
+  <input type="text" name="media" style="width:400px"><br>
+
+</form>
+</div> 
+
+<div id="treaty">
+<embed src="US-CanadaTreaty.pdf" width="400px" height="400px" />
+</div>
+
+<div> <input id="btntest" type="button" value="Submit" 
        onclick="return btntest_onclick()" /><div>
-
-       
-
-
-           
-
-            <input type="hidden" id="form1__token" name="form1[_token]" value="ed7e4e7aa8a7119ac7a443b0808a464a8de286f0" ></div></form>
-        </div>
-  </div>
-
-  
-
-
-
-
 
 
 
@@ -123,7 +127,7 @@
     function btntest_onclick() 
 {
     //window.alert("fuuuuuu");
-    window.location.href = "Simple.html";
+    window.location.href = "Done.html";
 }
 
 

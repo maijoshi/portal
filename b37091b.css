@@ -618,6 +618,11 @@ img
 	border:0;
 }
 
+#treaty {
+	float: right;
+	display: inline-block;
+}
+
 #logo
 {
 	margin-bottom:20px;
