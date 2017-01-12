@@ -73,11 +73,11 @@
   </div>
   <div class="content control-group search row-fluid ">
     <div class="span6">
-            <form method="post" action="/search" class="form-inline" id="search_mlat_form"><div id="form1"     class="form-inline" id="search_mlat_form"><label for="form1_country1" class="required">Your Country:</label><div id="selectwrap"><select id="form1_country1" name="form1[country1]" required="required"    class="input-xlarge"><option value="">[Country #1]</option><option value="canada">Canada</option><option value="france">France</option><option value="germany">Germany</option><option value="italy">Italy</option><option value="japan">Japan</option><option value="russia">Russia</option><option value="uk">United Kingdom</option><option value="us">United States</option></select></div>
+            <form method="post" action="/search" class="form-inline" id="search_mlat_form"><div id="form1"     class="form-inline" id="search_mlat_form"><label for="form1_country1" class="required">Your Country:</label><div id="selectwrap"><select id="form1_country1" name="form1[country1]" required="required"    class="input-xlarge"><option value="">[Country #1]</option><option value="canada">Canada</option><option value="france">France</option><option value="uk">United Kingdom</option><option value="us">United States</option></select></div>
 
             <p>    </p>
             
-            </select></div><label for="form1_country3" class="required">Country Requesting Information From:</label><div id="selectwrap"><select id="form1_country3" name="form1[country3]" required="required"    class="input-xlarge"><option value="">[Country #2]</option><option value="canada">Canada</option><option value="france">France</option><option value="germany">Germany</option><option value="italy">Italy</option><option value="japan">Japan</option><option value="russia">Russia</option><option value="uk">United Kingdom</option><option value="us">United States</option></select></div>
+            </select></div><label for="form1_country3" class="required">Country Requesting Information From:</label><div id="selectwrap"><select id="form1_country3" name="form1[country3]" required="required"    class="input-xlarge"><option value="">[Country #2]</option><option value="canada">Canada</option><option value="france">France</option><option value="uk">United Kingdom</option><option value="us">United States</option></select></div>
 <!--
             </select></div><div><button type="submit" id="form1_GO" name="form1[GO]" class="search-btn">GO</button></div> -->
 
@@ -123,7 +123,86 @@
     function btntest_onclick() 
 {
     //window.alert("fuuuuuu");
-    window.location.href = "Simple.html";
+    country1 = document.getElementById('form1_country1').value
+    country2 = document.getElementById('form1_country3').value
+    
+    if (country2 == "canada")
+    {
+      if (country1 == "canada")
+      {
+        window.alert("Please choose two different countries!");
+      }
+      else if (country1 == "france")
+      {
+        window.location.href = "CanadaFrance.html";
+      }
+      else if (country1 == "uk")
+      {
+        window.location.href = "CanadaUK.html";
+      }
+      else
+      {
+        window.location.href = "USCanada.html";
+      } 
+    }
+    if (country2 == "france")
+    {
+      if (country1 == "canada")
+      {
+        window.location.href = "CanadaFrance.html";
+      }
+      else if (country1 == "france")
+      {
+        window.alert("Please choose two different countries!");
+      }
+      else if (country1 == "uk")
+      {
+        window.location.href = "FranceUK.html";
+      }
+      else
+      {
+        window.location.href = "USFrance.html";
+      } 
+    }
+    if (country2 == "uk")
+    {
+      if (country1 == "canada")
+      {
+        window.location.href = "CanadaUK.html";
+      }
+      else if (country1 == "france")
+      {
+        window.location.href = "FranceUK.html";
+      }
+      else if (country1 == "uk")
+      {
+        window.alert("Please choose two different countries!");
+      }
+      else
+      {
+        window.location.href = "USUK.html";
+      } 
+    }
+    if (country2 == "us")
+    {
+      if (country1 == "canada")
+      {
+        window.location.href = "USCanada.html";
+      }
+      else if (country1 == "france")
+      {
+        window.location.href = "USFrance.html";
+      }
+      else if (country1 == "uk")
+      {
+        window.location.href = "USUK.html";
+      }
+      else
+      {
+        window.alert("Please choose two different countries!");
+      } 
+    }
+    
 }
 
 
